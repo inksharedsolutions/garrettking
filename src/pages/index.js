@@ -1,22 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Nav from "../components/nav"
+import Banner from "../components/banner"
+import MidBook from "../components/front-book"
+import Author from "../components/author"
+import FeaturedLogos from "../components/mid-main"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+const IndexPage = (props) => (
+    <Layout>
+        <Helmet title="Home | Brogar Maximus"/>
+        <Nav pathExt={props.path} />
+        <Banner /><br/><br/><br/><br/><br/><br/>
+        <MidBook />
+        <Author />
+        <FeaturedLogos />
+    </Layout>
 )
 
 export default IndexPage
