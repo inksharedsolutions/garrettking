@@ -1,11 +1,49 @@
 /*
 * Responsive Media Queries
 */
+@media screen and (max-width: 1490px) {
+    .banner-text{
+        width: 50em;
+        h1 {
+             margin: 0 auto;
+             font-size: 5vw;
+        }
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .banner-text{
+        width: 50em;
+        h1 {
+             margin: 0 auto;
+             font-size: 5vw;
+        }
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .banner-text{
+        width: 50em;
+        h1 {
+             margin: 0 auto;
+             font-size: 5vw;
+        }
+    }
+}
+
 @media screen and (max-width : 1350px) {
     .flex-container {
         h1 {
             font-size: 27px;
             padding: 0 8%;
+        }
+    }
+
+    .banner-text{
+        width: 50em;
+        h1 {
+             margin: 0 auto;
+             font-size: 5vw;
         }
     }
 }
@@ -20,6 +58,15 @@
             transform: translate(-25px, -82px);
             height: 620px;
             width: 450px;
+        }
+    }
+
+    .banner-text {
+        width: 50em;
+        margin-top: 5em;
+        h1 {
+            margin: 0 auto;
+            font-size: 5vw;
         }
     }
 }
@@ -294,6 +341,14 @@
         }
     }
 
+    .banner-text {
+        width: 40em;
+        h1 {
+            margin: 0 auto;
+            font-size: 7vw;
+        }
+    }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -446,6 +501,14 @@
         display: block !important;
         margin: 14px auto !important;
     }
+
+    .banner-text {
+        width: 30em;
+        h1 {
+            margin: 0 auto;
+            font-size: 10vw;
+        }
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -505,8 +568,9 @@
     }
 
     .banner-text {
+        width: 20em;
         h1 {
-            margin: 0;
+            margin: 0 auto;
             font-size: 10vw;
         }
     }
@@ -566,6 +630,13 @@
             width: 100%;
         }
     }
+    .banner-text {
+        width: 20em;
+        h1 {
+            margin: 0 auto;
+            font-size: 10vw;
+        }
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -586,6 +657,15 @@
     
 }
 
+@media screen and (max-width: 280px) {
+    .banner-text {
+        width: 15em;
+        h1 {
+            margin: 0 auto;
+            font-size: 10vw;
+        }
+    }
+}
 
 /***
   ================
